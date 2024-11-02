@@ -8,9 +8,9 @@ public class SistemManajemenHotel {
 
         // Membuat objek fasilitas
         List<Fasilitas> daftarFasilitas = new ArrayList<>();
-        daftarFasilitas.add(new Fasilitas("WiFi", 10000));
-        daftarFasilitas.add(new Fasilitas("Sarapan", 10000));
-        daftarFasilitas.add(new Fasilitas("Parkir", 2000));
+        daftarFasilitas.add(new Fasilitas("WiFi", 30000));
+        daftarFasilitas.add(new Fasilitas("Sarapan", 20000));
+        daftarFasilitas.add(new Fasilitas("Parkir", 5000));
 
         // Membuat objek resepsionis
         Resepsionis resepsionis = new Resepsionis("Alice");
